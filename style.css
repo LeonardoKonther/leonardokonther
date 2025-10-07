@@ -342,6 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-glitch {
+    display: none;
     background: var(--white);
     padding: 30px;
     border-radius: 10px;
@@ -1351,6 +1352,10 @@ h1, h2, h3, h4, h5, h6 {
         gap: 20px;
     }
 
+    .about-glitch {
+        display: block;
+    }
+
     .how-single-card {
         padding: 40px 35px;
         margin-bottom: 50px;
@@ -1486,11 +1491,11 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .services {
-        padding: 45px 0 80px 0;
+        padding: 30px 0 70px 0;
     }
 
     .projects {
-        padding: 50px 0 80px 0;
+        padding: 35px 0 70px 0;
     }
 
     .services-grid {

@@ -417,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Services Section */
 .services {
-    padding: 100px 0;
+    padding: 70px 0 100px 0;  /* ← SUBSTITUA POR ESTA */
     background: var(--white);
     opacity: 0;
     transform: translateY(30px);
